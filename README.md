@@ -1,4 +1,4 @@
-# Sephora-Reviews-Skincare-and-Product-Info
+# Learning-Project-Sephora-Reviews-Skincare-and-Product-Info
 
 The entirety of this project is based on this data set that was collected by Nady Inky on Kaggle: https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews/data
 
