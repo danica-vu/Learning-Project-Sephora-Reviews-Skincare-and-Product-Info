@@ -9,7 +9,7 @@ The end product of this project is a dashboard providing information on what is 
 With the data from the Python scrape, thanks to Nady Inky, there is data on all of Sephora's products and reviews on Sephora's skincare products as of March 2023. With Skincare becoming the new trend and focus of the beauty community, it is important to keep an eye on what people are talking about the most. 
 
 # The Database
-The original dataset was wonderful; however, some columns were not necessary, and some cleaning needed to get done. 
+The original dataset was wonderful; however, some columns were not necessary, and some cleaning needed to be done. 
 From the original dataset, I got rid of review_title and review_text because they contained characters that are not compatible with MySQL, despite being a regular CSV file. I changed the character set to UTC-8 in MySQL to try to accommodate, but to no avail.
 I reformatted the submission time to the correct format to input into MySQL.
 In the end, I created tables for the CSV files to sit in, and they were very much identical to the original, just without the review_title and review_text from the reviews table.
@@ -31,4 +31,11 @@ The SQL to query the table is as follows:
 Using the table, I was able to populate the dashboard with a main bar chart visual, a search function using an add-on by Microsoft, filters for the categories, and number metrics at the very top. The table below the bar chart serves as a way to see how popular a product is on the bar chart when you click on the product name and it also shows whether an item is in-stock and/or online.
 
 A snapshot of my final dashboard:
-<img width="1278" height="717" alt="Image" src="https://github.com/user-attachments/assets/b094759a-b8fa-4dd5-9e0a-26540a504c0a" />
+<img width="1279" height="719" alt="Image" src="https://github.com/user-attachments/assets/e1fafd4d-901c-4b8b-b7cd-6c5fc63a6c7b" />
+
+# Takeaways
+I learned so much about the nuances of MySQL and Power BI. It could be easy to execute the commands and create a dashboard that works. However, I found that within these actions, I have to think about efficiency and relevance while having to do a handful of troubleshooting tasks. Troubleshooting is not my specialty, and if I learned one thing, it's that I should consider putting that into my toolbelt. 
+
+Right now, I'm still learning DAX, and I originally wanted to put that into this project. However, the way I wanted to use it was to create a column in my table and calculate percentage values of positive and negative feedback as a number in the top row of the dashboard. This would've required me to input the entirety of the reviews table into Power BI, which would've slowed down my laptop. In my next project, I will look forward to incorporating DAX so I can gain experience with it.
+
+This was such a great opportunity to work on my analytics skills, and this project opened my eyes to the possibilities of what I can contribute to by providing insights through data visualizations.
