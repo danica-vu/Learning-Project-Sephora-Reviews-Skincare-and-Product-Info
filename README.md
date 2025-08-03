@@ -12,7 +12,7 @@ With the data from the Python scrape, thanks to Nady Inky, there is data on all 
 The original dataset was wonderful; however, some columns were not necessary, and some cleaning needed to be done. 
 From the original dataset, I got rid of review_title and review_text because they contained characters that are not compatible with MySQL, despite being a regular CSV file. I changed the character set to UTC-8 in MySQL to try to accommodate, but to no avail.
 I reformatted the submission time to the correct format to input into MySQL.
-In the end, I created tables for the CSV files to sit in, and they were very much identical to the original, just without the review_title and review_text from the reviews table.
+In the end, I created tables for the CSV files to sit in, and they were very much identical to the original, just without the review_title and review_text columns from the reviews table.
 
 <img width="500" height="611" alt="Image" src="https://github.com/user-attachments/assets/63890452-dc12-40eb-a667-e82c136ed8fc" /> <img width="500" height="429" alt="Image" src="https://github.com/user-attachments/assets/22f278d9-c736-44f5-b870-6f6fedb8ab30" />
 
