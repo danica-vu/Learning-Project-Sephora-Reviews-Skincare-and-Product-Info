@@ -1,6 +1,6 @@
 # Learning-Project-Sephora-Reviews-Skincare-and-Product-Info
 
-The entirety of this project is based on this data set that was collected by Nady Inky on Kaggle: https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews/data
+The entirety of this project is based on this dataset that was collected by Nady Inky on Kaggle: https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews/data
 
 # Background
 This is a learning project aimed at gaining some experience with MySQL and Power BI in order to create insights about customer reviews relating to skincare products sold at Sephora.
@@ -55,3 +55,6 @@ I learned so much about the nuances of MySQL and Power BI. It could be easy to e
 Right now, I'm still learning DAX, and I originally wanted to use this skill in this project. However, the way I wanted to use it was to create a column in my table and calculate percentage values of positive and negative feedback as a number in the top row of the dashboard. This would've required me to input the entirety of the reviews table into Power BI, which would've slowed down my laptop. In my next project, I will look forward to incorporating DAX so I can gain experience with it.
 
 This was such a great opportunity to work on my analytics skills, and this project opened my eyes to the possibilities of what I can contribute to by providing insights through data visualizations.
+
+
+This Sephora Products and Skincare Reviews dataset by Nady Inky had a [Attribution 4.0 International (CC by 4.0)](https://creativecommons.org/licenses/by/4.0/) license on it.
